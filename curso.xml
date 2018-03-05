@@ -2,7 +2,7 @@
 <proc xmlns="http://www.portalfiscal.inf.br/mdfe" NSU="000000000026497" ipTransmissor="177.194.187.125" schema="procMDFe_v3.00.xsd">
 	<mdfeProc versao="3.00" xmlns="http://www.portalfiscal.inf.br/mdfe">
 		<MDFe xmlns="http://www.portalfiscal.inf.br/mdfe">
-			<infMDFe Id="MDFe15170321586212000172580010000000111000000117" versao="3.00">
+			<infMDFe Id="MDFe15170321586212000172580010000000111000000117" versao="2.00">
 				<ide>
 					<cUF>15</cUF>
 					<tpAmb>2</tpAmb>
