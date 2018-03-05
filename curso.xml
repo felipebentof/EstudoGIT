@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proc xmlns="http://www.portalfiscal.inf.br/mdfe" NSU="000000000026497" ipTransmissor="177.194.187.125" schema="procMDFe_v3.00.xsd">
+	<mdfeProc versao="3.00" xmlns="http://www.portalfiscal.inf.br/mdfe">
+		<MDFe xmlns="http://www.portalfiscal.inf.br/mdfe">
+			<infMDFe Id="MDFe15170321586212000172580010000000111000000117" versao="3.00">
+				<ide>
+					<cUF>15</cUF>
+					<tpAmb>2</tpAmb>
+					<tpEmit>2</tpEmit>
+					<tpTransp>2</tpTransp>
+					<mod>58</mod>
+					<serie>1</serie>
+					<nMDF>11</nMDF>
+					<cMDF>00000011</cMDF>
+					<cDV>7</cDV>
+					<modal>3</modal>
+					<dhEmi>2017-03-07T14:43:00-03:00</dhEmi>
+					<tpEmis>1</tpEmis>
+					<procEmi>0</procEmi>
+					<verProc>1</verProc>
+					<UFIni>PA</UFIni>
+					<UFFim>CE</UFFim>
+					<infMunCarrega>
+						<cMunCarrega>1500800</cMunCarrega>
+						<xMunCarrega>Ananindeua</xMunCarrega>
+					</infMunCarrega>
+					<infPercurso>
+						<UFPer>MA</UFPer>
+					</infPercurso>
+					<infPercurso>
+						<UFPer>PI</UFPer>
+					</infPercurso>
+				</ide>
+				<emit>
+					<CNPJ>21586212000172</CNPJ>
+					<IE>154716987</IE>
+					<xNome>TESTE</xNome>
+					<xFant>FANTASIA</xFant>
+					<enderEmit>
+						<xLgr>RUA AMAZONAS</xLgr>
+						<nro>3358</nro>
+						<xCpl>321</xCpl>
+						<xBairro>CAICARA</xBairro>
+						<cMun>1501402</cMun>
+						<xMun>BELÉM</xMun>
+						<CEP>68744620</CEP>
+						<UF>PA</UF>
+						<fone>37219018</fone>
+						<email>RENATO-PA@HOTMAI.COM</email>
+					</enderEmit>
+				</emit>
+				<infModal versaoModal="3.00">
+					<aquav>
+						<irin>1234568797</irin>
+						<tpEmb>01</tpEmb>
+						<cEmbar>1234567890</cEmbar>
+						<xEmbar>NOVA EMBARCAÇÃO</xEmbar>
+						<nViag>12</nViag>
+						<cPrtEmb>123</cPrtEmb>
+						<cPrtDest>12345</cPrtDest>
+						<prtTrans>PORTO DA DIREITA</prtTrans>
+						<tpNav>0</tpNav>
+						<infTermCarreg>
+							<cTermCarreg>12345678</cTermCarreg>
+							<xTermCarreg>NOVO TERMINAL DE CARREGAMENTO INSERIDO</xTermCarreg>
+						</infTermCarreg>
+						<infTermDescarreg>
+							<cTermDescarreg>12345678</cTermDescarreg>
+							<xTermDescarreg>NOVO TERMINAL DE DESCARREGAMENTO</xTermDescarreg>
+						</infTermDescarreg>
+						<infEmbComb>
+							<cEmbComb>123</cEmbComb>
+							<xBalsa>12345</xBalsa>
+						</infEmbComb>
+						<infUnidCargaVazia>
+							<idUnidCargaVazia>NOVACARGA123</idUnidCargaVazia>
+							<tpUnidCargaVazia>1</tpUnidCargaVazia>
+						</infUnidCargaVazia>
+						<infUnidTranspVazia>
+							<idUnidTranspVazia>NOVOTRANS123</idUnidTranspVazia>
+							<tpUnidTranspVazia>1</tpUnidTranspVazia>
+						</infUnidTranspVazia>
+					</aquav>
+				</infModal>
+				<infDoc>
+					<infMunDescarga>
+						<cMunDescarga>2300101</cMunDescarga>
+						<xMunDescarga>Abaiara</xMunDescarga>
+						<infNFe>
+							<chNFe>15170104658821000170550010007591361111023017</chNFe>
+							<infUnidTransp>
+								<tpUnidTransp>1</tpUnidTransp>
+								<idUnidTransp>12</idUnidTransp>
+								<lacUnidTransp>
+									<nLacre>1</nLacre>
+								</lacUnidTransp>
+								<infUnidCarga>
+									<tpUnidCarga>1</tpUnidCarga>
+									<idUnidCarga>12344</idUnidCarga>
+									<lacUnidCarga>
+										<nLacre>1</nLacre>
+									</lacUnidCarga>
+									<qtdRat>400.00</qtdRat>
+								</infUnidCarga>
+								<qtdRat>500.00</qtdRat>
+							</infUnidTransp>
+						</infNFe>
+					</infMunDescarga>
+				</infDoc>
+				<tot>
+					<qNFe>1</qNFe>
+					<vCarga>0.00</vCarga>
+					<cUnid>01</cUnid>
+					<qCarga>0.0000</qCarga>
+				</tot>
+			</infMDFe>
+			<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+				<SignedInfo>
+					<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+					<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+					<Reference URI="#MDFe15170321586212000172580010000000111000000117">
+						<Transforms>
+							<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+							<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+						</Transforms>
+						<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+						<DigestValue>3neEN77tJ6ZY+OAdH6I5ojJWVuA=</DigestValue>
+					</Reference>
+				</SignedInfo>
+				<SignatureValue>y+6c68jSK88eXJhgCNEW/+c0VVrN+BoX3DBddfmwxDyCGF7YA1KMUVnFhLAajeODzxfPUPOtFMyoQhfdnA+6FSO9tCxNJsJMa/l6Eg+CX0JGRwnySmxBvAD4u2WS+SSIwEdM7l4LhHJZ1gtCefK6dE1qaXigt3VrYLu5BjNb59ILcJTt2hIh1E5AAd3xGovtmRlP0HF0/lUeINTjW59OsOjbKFLHxY8K1R3QYyxUGaXrNrDL7o5qcW/nXiiP5JHeJlbimmGUc76300J88QktZ9zCTY6H4Ebe37QuSQd/nu15Kpc6+SIxwWrCd4NKQ6G7TbScw+4D919GcHKbIg+uOg==</SignatureValue>
+				<KeyInfo>
+					<X509Data>
+						<X509Certificate>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</X509Certificate>
+					</X509Data>
+				</KeyInfo>
+			</Signature>
+		</MDFe>
+		<protMDFe versao="3.00" xmlns="http://www.portalfiscal.inf.br/mdfe">
+			<infProt Id="MDFe915170000000778">
+				<tpAmb>2</tpAmb>
+				<verAplic>RS20170206140916</verAplic>
+				<chMDFe>15170321586212000172580010000000111000000117</chMDFe>
+				<dhRecbto>2017-03-07T14:53:09-03:00</dhRecbto>
+				<nProt>915170000000778</nProt>
+				<digVal>3neEN77tJ6ZY+OAdH6I5ojJWVuA=</digVal>
+				<cStat>100</cStat>
+				<xMotivo>Autorizado o uso do MDF-e</xMotivo>
+			</infProt>
+		</protMDFe>
+	</mdfeProc>
+</proc>
